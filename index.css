@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to right,#1e2d50,#1B7AC2); 
+    margin: 2px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+#heading{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    text-align: center;
+    
+} 
+#title{
+    color: red;
+}
+#result{
+    text-align: center;
+}
+#alert{
+    color: white;
+    font-weight: bold;
+}
+
+#search{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#sub{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    justify-content: center;
+    gap: 2rem;
+
+    
+}
+button{
+    background-color:black !important;
+}
+
+
+img{
+    width: 100%;
+    height: 10rem;
+    overflow: center;
+}
+#detials{
+    text-align: center;
+}
